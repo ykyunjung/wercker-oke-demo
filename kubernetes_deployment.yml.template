@@ -2,7 +2,7 @@
 # and the .template extension removed by the bash-template Wercker step.
 # See wercker.yml.
 
-apiVersion: extensions/v1beta2
+apiVersion: extensions/stable
 kind: Deployment
 metadata:
   name: get-ip
